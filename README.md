@@ -1,4 +1,4 @@
-# LibraryVerse - Enterprise Modular Monolith CMS
+# Library - Enterprise Modular Monolith CMS
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-purple)
 ![Architecture](https://img.shields.io/badge/Architecture-Clean%20%2F%20Onion-green)
@@ -7,9 +7,9 @@
 
 ## 📖 Project Overview
 
-**LibraryVerse** is a scalable, enterprise-level Content Management System developed with **.NET 8**. 
+**Library** is a scalable, enterprise-level Content Management System developed with **.NET 8**. 
 
-Unlike traditional monolithic applications, LibraryVerse adopts a **Modular Monolith** architecture, ensuring strict boundary separation between business modules (Accounts, Contents, Files, etc.) while maintaining the simplicity of a single deployment unit. The project is designed following **Domain-Driven Design (DDD)** principles and **Clean Architecture** standards.
+Unlike traditional monolithic applications, Library adopts a **Modular Monolith** architecture, ensuring strict boundary separation between business modules (Accounts, Contents, Files, etc.) while maintaining the simplicity of a single deployment unit. The project is designed following **Domain-Driven Design (DDD)** principles and **Clean Architecture** standards.
 
 > **⚠️ Note on Source Code:** > Due to commercial restrictions and NDA agreements regarding the proprietary business logic used in this project, the full source code is not publicly available. This repository serves as a **technical showcase** and architectural documentation of the engineering practices employed.
 
@@ -50,7 +50,7 @@ Instead of a "Big Ball of Mud," the application is divided into self-contained m
 Below is the actual solution structure demonstrating the modular separation:
 
 ```text
-LibraryVerse.sln
+Library.sln
 │
 ├── 📂 Core  (Shared Kernel)
 │   ├── Core.Caching        # Distributed Caching Interfaces
